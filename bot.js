@@ -25,7 +25,7 @@ client.on('message', message => { // When the message a message is executed
 
        }
 	   
-    if (message.content.contains('69')) { // if that message matches ping
+    if (message.content.includes('69')) { // if that message matches ping
 		message.reply('HAHAHAHA fucking hilarious! Get it? It\'s the sex number, therefore it\'s funny! Except it\'s not fucking funny, how much of a braindead person do you have to be to find the number sixty-nine funny? How old are you people? Get a fucking grip on reality you mongoloid bastards. This is why i fucking despise meme culture sometimes, it promotes braindead humor for 3 year olds. "Nice nice nice" shut the fuck up you prick, repeating a word is not funny either. Holy fuck i\'d actually punch someone in the face IRL for acting like such a retard.');
        }
 });
