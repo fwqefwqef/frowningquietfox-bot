@@ -28,7 +28,7 @@ client.on('message', message => { // When the message a message is executed
     if (message.content.includes('69')) { // if that message matches ping
 		message.reply('HAHAHAHA fucking hilarious! Get it? It\'s the sex number, therefore it\'s funny! Except it\'s not fucking funny, how much of a braindead person do you have to be to find the number sixty-nine funny? How old are you people? Get a fucking grip on reality you mongoloid bastards. This is why i fucking despise meme culture sometimes, it promotes braindead humor for 3 year olds. "Nice nice nice" shut the fuck up you prick, repeating a word is not funny either. Holy fuck i\'d actually punch someone in the face IRL for acting like such a retard.');
        }
-    if (message.content.toLowerCase() === 'oof') { // if that message matches ping
+    if (message.content.toLowerCase() === 'oof' || message.content.toLowerCase() === 'oof 100') { // if that message matches ping
 
        message.reply('Shut the fuck up you absolute lobotomite. You think adding your poorly edited Skyrim makes this funny? What a joke. Get a grip on reality, stop saying "oof" during a serious conversation just because your two braincells cant ever send signals to eachother to form a response. Honestly pathetic. Oh guys look at me Im so funny OOF 100! Its so funny and quirky because its a roblox noise right guys? Hahah skyrim reference!! Shut the fuck up you absolute fucking dusty toilet. I would flush you down the drain in an instant.');	   
 
@@ -38,7 +38,7 @@ client.on('message', message => { // When the message a message is executed
        message.reply('DUHHHHH FORTNITE BAD DUHHHH BRORTNITE BRAD!!1!1 IS THAT ALL YOU DEPRESSED FUCKS CAN SAY? FORTNITE FORTNITE EMOJI INSTA BAD EMOJI EMOJI BAD BAD!!1!1 I FEEL LIKE IM IN A FUCKING ASYLUM FULL OF DEMENTIA RIDDEN OLD PEOPLE WHO CAN DO NOTHING BUT REPEAT THE SAME FUCKING WORDS ON LOOP LIKE A BROKEN FUCKING RECORD');	   
 
        }
-    if (message.content.toLowerCase() === 'gun') { // if that message matches ping
+    if (message.content.toLowerCase().includes('gun')) { // if that message matches ping
 
        message.reply('I\'m so proud of my daughter for stopping a bank robbery today. The robbers went in and held their guns up, telling everyone to put their hands in the air. My daughter (only 3 years old!) stood her ground, faced them directly in the eye, and simply said "If you\'re being mugged, just say no. Your robbers cannot legally take any of your possessions." Almost instantaneously, the robbers collapsed to the floor, suffering from a bipolar seizure. Everyone clapped and she was given position as senator of the state of Florida, as well as invited by the Democratic National Convention to run for President in 2020. What an unbelievable event! I\'m so blessed by God to have such a wonderful child.');	   
 
