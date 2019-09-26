@@ -40,7 +40,7 @@ client.on('message', message => { // When the message a message is executed
        }
     if (message.content.toLowerCase().includes('gun')) { // if that message matches ping
 
-       message.reply('I\'m so proud of my daughter for stopping a bank robbery today. The robbers went in and held their guns up, telling everyone to put their hands in the air. My daughter (only 3 years old!) stood her ground, faced them directly in the eye, and simply said "If you\'re being mugged, just say no. Your robbers cannot legally take any of your possessions." Almost instantaneously, the robbers collapsed to the floor, suffering from a bipolar seizure. Everyone clapped and she was given position as senator of the state of Florida, as well as invited by the Democratic National Convention to run for President in 2020. What an unbelievable event! I\'m so blessed by God to have such a wonderful child.');	   
+       message.reply('I\'m so proud of my daughter for stopping a bank robbery today. The robbers went in and held their AK-47s up, telling everyone to put their hands in the air. My daughter (only 3 years old!) stood her ground, faced them directly in the eye, and simply said "If you\'re being mugged, just say no. Your robbers cannot legally take any of your possessions." Almost instantaneously, the robbers collapsed to the floor, suffering from a bipolar seizure. Everyone clapped and she was given position as senator of the state of Florida, as well as invited by the Democratic National Convention to run for President in 2020. What an unbelievable event! I\'m so blessed by God to have such a wonderful child.');	   
 
        }
 });
