@@ -32,7 +32,7 @@ client.on('message', message => { // When the message a message is executed
     if (!(message.author.bot) && message.content.includes('69')) { // if that message matches ping
 		message.reply('HAHAHAHA fucking hilarious! Get it? It\'s the sex number, therefore it\'s funny! Except it\'s not fucking funny, how much of a braindead person do you have to be to find the number sixty-nine funny? How old are you people? Get a fucking grip on reality you mongoloid bastards. This is why i fucking despise meme culture sometimes, it promotes braindead humor for 3 year olds. "Nice nice nice" shut the fuck up you prick, repeating a word is not funny either. Holy fuck i\'d actually punch someone in the face IRL for acting like such a retard.');
        }
-    if (!(message.author.bot) && message.content.toLowerCase() === ('oof')) { // if that message matches ping
+    if (!(message.author.bot) && (message.content.toLowerCase() === ('oof') || message.content.toLowerCase() === ('oof 100'))) { // if that message matches ping
 
        message.reply('Shut the fuck up you absolute lobotomite. You think adding your poorly edited Skyrim makes this funny? What a joke. Get a grip on reality, stop saying "oof" during a serious conversation just because your two braincells cant ever send signals to eachother to form a response. Honestly pathetic. Oh guys look at me Im so funny OOF 100! Its so funny and quirky because its a roblox noise right guys? Hahah skyrim reference!! Shut the fuck up you absolute fucking dusty toilet. I would flush you down the drain in an instant.');	   
 
