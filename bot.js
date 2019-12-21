@@ -25,7 +25,7 @@ client.on('message', message => { // When the message a message is executed
        message.reply('https://imgur.com/a/nHSXeuz');
        }   
 	if ((message.content === ('!help'))) { // if that message matches ping
-		message.reply('h, noremakes,shuckle,deod,uturn');
+		message.reply('```h, noremakes,shuckle,deod,uturn```');
        }   
     if ((message.content === ('!noremakes'))) { // if that message matches ping
        message.reply('What if no Sinnoh remakes? We :memecat:');
