@@ -22,7 +22,7 @@ client.on('message', message => { // When the message a message is executed
 	if (!message.author.bot) {		
 
 	if (message.content.toLowerCase() === ('!help')) { // if that message matches ping
-		message.reply('```noremakes,shuckle,deod,uturn,jojo, stall```');
+		message.reply('```noremakes,shuckle,deod,uturn,jojo,stall```');
        }   
     if (message.content.toLowerCase() === ('!noremakes')) { // if that message matches ping
        message.reply('What if no Sinnoh remakes? We :kms:');
@@ -48,7 +48,7 @@ client.on('message', message => { // When the message a message is executed
     }
     if (message.content.toLowerCase()===('!stall')) { // if that message matches ping
 
-       message.reply('Alright, so I booted up PS today and saw this format called [Gen 8] Balanced Hackmons, so I whipped up a team really quick to hopefully farm some low Elo players before getting caught in 200 turn stall games (every high level BH player exclusively uses stall) when I came upon an issue. WHERE IS ZARUDE? This Pokemon got officially released so it can't get us in any trouble with Nintendo, and its design is super cool so I want to use it as a Simple Shift Gear + Power Trip sweeper. Now, I know all the keyboard warriors in the comments are going to be like "lol loool rofl lmao it's an unreleased pokemon, you can't use it yet" before going back to their 421 turn tournament games like the low IQ cretins they are. Newsflash, idiots, this format is called Balanced Hackmons. HACKMONS. IT SAYS IN THE NAME. This means that any Pokemon that can be obtained by hacking is allowed. JUST HACK INTO GAME FREAK HEADQUARTERS AND GET IT THERE. SERIOUSLY GUYS IT'S NOT THAT COMPLICATED. This just makes me so mad, it ruins the integrity of the format and rewards the cheap stall users that just spam Teleport and Imposter, but the Smogon higher-ups do nothing about it. Anyway, I would appreciate it if the freethinkers that agree with this message dropped a "Like", "Love", or "Haha" Smogon reaction on this post to express solidarity.');
+       message.reply('Alright, so I booted up PS today and saw this format called [Gen 8] Balanced Hackmons, so I whipped up a team really quick to hopefully farm some low Elo players before getting caught in 200 turn stall games (every high level BH player exclusively uses stall) when I came upon an issue. WHERE IS ZARUDE? This Pokemon got officially released so it can\'t get us in any trouble with Nintendo, and its design is super cool so I want to use it as a Simple Shift Gear + Power Trip sweeper. Now, I know all the keyboard warriors in the comments are going to be like \"lol loool rofl lmao it\'s an unreleased pokemon, you can't use it yet\" before going back to their 421 turn tournament games like the low IQ cretins they are. Newsflash, idiots, this format is called Balanced Hackmons. HACKMONS. IT SAYS IN THE NAME. This means that any Pokemon that can be obtained by hacking is allowed. JUST HACK INTO GAME FREAK HEADQUARTERS AND GET IT THERE. SERIOUSLY GUYS IT'S NOT THAT COMPLICATED. This just makes me so mad, it ruins the integrity of the format and rewards the cheap stall users that just spam Teleport and Imposter, but the Smogon higher-ups do nothing about it. Anyway, I would appreciate it if the freethinkers that agree with this message dropped a \"Like\", \"Love\", or \"Haha\" Smogon reaction on this post to express solidarity.');
     }
 	}
        });
