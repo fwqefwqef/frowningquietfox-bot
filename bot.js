@@ -25,7 +25,7 @@ client.on('message', message => { // When the message a message is executed
 		message.channel.send('```noremakes,shuckle,deod,uturn,jojo,stall```');
        }   
     if (message.content.toLowerCase() === ('!noremakes')) { // if that message matches ping
-       message.channel.send('What if no Sinnoh remakes? We :kms:');
+       message.channel.send('What if no Sinnoh remakes? We <:kms:694562787250405556>');
        }   
     if (message.content.toLowerCase() === ('!shuckle')) { // if that message matches ping
 
