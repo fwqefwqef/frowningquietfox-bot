@@ -5,7 +5,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => { // know if our bot is online
 
-    client.user.setActivity('copypastas and memes !help', { type: 'PLAYING' });
+    client.user.setActivity('copypastas and memes !help');
 	//playing, streaming, listening, watching, custom_status
 
 });
