@@ -7,7 +7,7 @@ client.on('ready', () => { // know if our bot is online
 
     client.user.setPresence({
         game: { 
-            name: 'copypastas and memes !help',
+            name: '!help',
             type: 'WATCHING'
         },
         status: 'online'
