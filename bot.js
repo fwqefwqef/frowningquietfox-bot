@@ -5,7 +5,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => { // know if our bot is online
 
-    console.log('I am ready!');
+    client.user.setGame('copypastas and memes !help')
 
 });
 
