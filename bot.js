@@ -4,13 +4,13 @@ const client = new Discord.Client();
 
 
 client.on('ready', () => { // know if our bot is online
-
+    client.setStatus('online')
     client.user.setPresence({
         game: { 
             name: '!help',
-            type: 'WATCHING'
-        },
-        status: 'online'
+            type: 'WATCHING',
+            url: 'https://discordapp.com/'
+        }
     });
 	//playing, streaming, listening, watching, custom_status
 
