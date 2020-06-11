@@ -11,7 +11,7 @@ client.on('ready', () => { // know if our bot is online
             type: 'WATCHING'
         },
         status: 'online'
-    })
+    });
 	//playing, streaming, listening, watching, custom_status
 
 });
