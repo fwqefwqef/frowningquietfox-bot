@@ -22,7 +22,7 @@ client.on('message', message => { // When the message a message is executed
 	if (!message.author.bot) {		
 
 	if (message.content.toLowerCase() === ('!help')) { // if that message matches ping
-		message.channel.send('```!shuckle,deod,uturn,jojo,stall```');
+		message.channel.send('```!shuckle,deod,uturn,jojo,stall,dimrahpumpkin```');
        }   
     if (message.content.toLowerCase() === ('!shuckle')) { // if that message matches ping
 
@@ -46,6 +46,10 @@ client.on('message', message => { // When the message a message is executed
     if (message.content.toLowerCase()===('!stall')) { // if that message matches ping
 
        message.channel.send('Alright, so I booted up PS today and saw this format called [Gen 8] Balanced Hackmons, so I whipped up a team really quick to hopefully farm some low Elo players before getting caught in 200 turn stall games (every high level BH player exclusively uses stall) when I came upon an issue. WHERE IS ZARUDE? This Pokemon got officially released so it can\'t get us in any trouble with Nintendo, and its design is super cool so I want to use it as a Simple Shift Gear + Power Trip sweeper. Now, I know all the keyboard warriors in the comments are going to be like \"lol loool rofl lmao it\'s an unreleased pokemon, you can\'t use it yet\" before going back to their 421 turn tournament games like the low IQ cretins they are. Newsflash, idiots, this format is called Balanced Hackmons. HACKMONS. IT SAYS IN THE NAME. This means that any Pokemon that can be obtained by hacking is allowed. JUST HACK INTO GAME FREAK HEADQUARTERS AND GET IT THERE. SERIOUSLY GUYS IT\'S NOT THAT COMPLICATED. This just makes me so mad, it ruins the integrity of the format and rewards the cheap stall users that just spam Teleport and Imposter, but the Smogon higher-ups do nothing about it. Anyway, I would appreciate it if the freethinkers that agree with this message dropped a \"Like\", \"Love\", or \"Haha\" Smogon reaction on this post to express solidarity.');
+    }
+    if (message.content.toLowerCase()===('!dimrahpumpkin')) { // if that message matches ping
+
+       message.channel.send('What\’s up gamers! So today I decided to hop on the [Gen 8] Balanced Hackmons ladder with an epic simple + no retreat spam team (fuck the smogon stall tryhards for banning shell smash) and I met this weird boomer avatar guy who was named rrrrgg or something and he had a stupid meta darm team lol, those tryhard fuckers are always fucking carried by darm and they cant bother to come up with an original team like me. Anyways I\’m 3 mons down and I finally got a kill with zekrom and he sent out a Gourgeist with poison heal and I was like \"ok noob lol, what are you gonna do?\" I clicked bolt beak cuz its my strongest move but he only took like 60% and he stole all of my boosts with broken spectral thief!!! Well whatever, i just kept clicking bolt beak expecting to finish him off easily, but he kept spamming spiky shield like a braindead stall fucker. he court changed my precious sticky web I set up with my truant ninjask and set up his own rocks while easily stalling me out wtf??!!! How is this balanced?? Now I was kinda angry so I pulled out my original no retreat Orbeetle (I named him Big Chungus lol) expecting to stored power sweep his entire team, and as I set up, HE USED FUCKING SPECTRAL THIEF AGAIN AND STOLE ALL MY BOOSTS AND I COULDNT DO ANYTHING ABOUT IT AND ARGHGUHG!!! I LOST TO THIS SAME FUCKING BRAINDEAD BOOMER 5 TIMES IN A ROW LIKE WTF I CANT DO ANYTHING AGAINST THAT GODDAMN PUMPKIN!!! I EVEN TRIED X-SCISSORING HIM TO DEATH BUT HE WOULD JUST KEEP CLICKING SPIKY SHIELD LIKE A WIMPY VIRGIN!!!1 I urge everyone on this forum to get Gourgeist out of the meta asap because it is uncompetitive and utterly broken. Thanks for your time.');
     }
 	}
        });
