@@ -22,18 +22,13 @@ client.on('message', message => { // When the message a message is executed
 	if (!message.author.bot) {		
 
 	if (message.content.toLowerCase() === ('!help')) { // if that message matches ping
-		message.channel.send('```!shuckle,deod,uturn,jojo,stall,dimrahpumpkin```');
+		message.channel.send('```!shuckle,uturn,jojo,stall,dimrahpumpkin```');
        }   
     if (message.content.toLowerCase() === ('!shuckle')) { // if that message matches ping
 
        message.channel.send('Shuckle is the worst pokemon.It\'s horrendously ugly and utterly useless. I hate it. What fucking niche does Shuckle have in BH? It just sits there and does nothing. I hate it. It provokes a deep rooted anger within me whenever I see it. I want to drive on over to the fucking pokemon headquarters and kill it. If this was the pokemon world, I\'d push it off a fucking cliff. Noobs just bring shuckle as if it\'s actually useful. It\'s not. Shuckle deserves to die. He deserves to have his smug little yellow face smashed in with a hammer. Oh wow, it\'s a fucking turtle with atrocious hp and horrendous typing, how fucking useful, I\'ll use it in every BH team I make. NO. STOP IT. It deserves to burn in hell. Why is it so goddamn smug. You\'re a fucking mold, you have no life goals, you will never accomplish anything in life apart from pissing me off. When you die noone will mourn. I hope you die');	   
 
 	}
-    if (message.content.toLowerCase()===('!deod') || message.content.toLowerCase()===('!deoxys-defense')) { // if that message matches ping
-
-       message.channel.send('Okay so I was just peacefully walking down the road as I usually do, minding my own business. Then all of a sudden a little disgusting 8-year old disabled kid suddenly logged in to PS on his phone, and started using DeoD in BH! I was furious! But I calmed down and got a hold of myself. Even though using DeoD is a horrible crime, he was only a child and mentally ill at that. But then he found a replay of Simple Smash DeoD sweeping, and he showed his mum! My entire body was shaking!!! How dare he offend me like that and spread pure evil into the world? So I walked over to him, and punched him so hard he was doing the wormdance on the ground. And then I shouted "DEOD BAD CRESSELIA GOOD!!!!" and then I trampled him to death while shitting profusely all over his corpse. Now obviously I expected that everyone would applause me for hindering the spread of evil and for doing gods work, but for some weird reason everyone just started screaming, and after a couple of minutes the police arrived and they arrested me?!?! What is happening??? The trial will begin soon, so I just wanna know, Am I The Asshole?');	   
-
-       }
     if (message.content.toLowerCase()===('!uturn') || message.content.toLowerCase()===('!u-turn')) { // if that message matches ping
 
        message.channel.send('Day 1035 of Gen 7 BH. All of my teams lose to U-turn. Whenever I load up a team on the BH ladder, I\'m terrified that I\'ll run into a U-turn team. Fearing the worst, I have taken every possible countermeasure. My teams are now built exclusively with 4x bug resists. But still, U-turn is too powerful for me. As soon as I see the Registeel hit my Ho-Oh for 3%, I know the game is over right there and just click X before all my Pokemon inevitably die. Skylake is telling me to adapt but I don\'t know if I can anymore. I tried running Flame Body on my Togekiss but it\'s only a 30% chance that I\'m even able to punish the move. I urge every one of you to get this move out of the metagame immediately, because I don\'t think I can take it any more.');	   
