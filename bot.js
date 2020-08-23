@@ -22,7 +22,7 @@ client.on('message', message => { // When the message a message is executed
 	if (!message.author.bot) {		
 
 	if (message.content.toLowerCase() === ('!help')) { // if that message matches ping
-		message.channel.send('```!shuckle,uturn,jojo,stall,dimrahpumpkin```');
+		message.channel.send('```!shuckle,uturn,jojo,stall,dimrahpumpkin,smash,dgz```');
        }   
     else if (message.content.toLowerCase() === ('!shuckle')) { // if that message matches ping
 
