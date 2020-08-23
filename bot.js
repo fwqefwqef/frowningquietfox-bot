@@ -1,16 +1,17 @@
 const Discord = require('discord.js');
 
-const client = new Discord.Client();
-
+const client = new Discord.Client({
+  presence: {
+    activity: {
+      name: '!help',
+      type: 'WATCHING'
+    }
+  }
+});
 
 client.on('ready', () => { // know if our bot is online
   console.log('logged in')
-client.user.setPresence({ game: {name: '!help'}, status: 'online' })
-  .then(console.log)
-  .catch(console.error);
 });
-
- 
 
 client.on('message', message => { // When the message a message is executed
     /*if (message.content === 'f' || message.content === 'F') { // if that message matches ping
