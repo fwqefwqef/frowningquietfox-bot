@@ -1,2 +1,2 @@
 # frowningquietfox-bot
-copypasta automod
+copypasta automod for discord
